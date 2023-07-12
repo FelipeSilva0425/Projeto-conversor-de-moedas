@@ -2,23 +2,34 @@
 margin:0;
 padding:0;
 box-sizing: border-box;
-font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
-
 }
 
 body{background-color: #8a51fc;
+   kly
 }
-
 .logo {
-width: 300px;
-margin-left: auto;
-margin-right: auto;
+width: 130px;
+display: block;
+margin: 20px auto;
 }
 
-.main {
-    width: 375px;
+main {
+    width: 275px;
     background: #f4f4f4;
     border-radius: 20px;
-    
+    margin:0 auto;
+    padding: 44px 24px 23px;    
+}
+label {
+    color: #777;
+    font-weight: 400;
+    font-size: 14px;
+}
+select {
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
 }
