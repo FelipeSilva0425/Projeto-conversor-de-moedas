@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 body{background-color: #8a51fc;
-   kly
+   
 }
 .logo {
 width: 130px;
@@ -84,7 +84,7 @@ section{
     color: #777777;
     font-size: 14px;
 }
-.currency-value{
+.currency-value, .currency-value-to-convert {
     color: #555555;
     font-weight: 700;
     font-size: 20px;
