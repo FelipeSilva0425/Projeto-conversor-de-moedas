@@ -5,21 +5,23 @@ box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
 
-body{background-color: #8a51fc;
-   
-}
-.logo {
-width: 130px;
-display: block;
-margin: 20px auto;
+body {
+    background-image: url(./assets/bcimage.png);
+     position: absolute;
+    z-index: -5;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
 }
 
+
 main {
-    width: 275px;
+    display: block;
+    width: 375px;
     background: #f4f4f4;
-    border-radius: 20px;
-    margin:0 auto 40px;
-    padding: 44px 24px 23px;    
+    border-radius: 30px;
+    margin: 1% auto 20%;
+    padding: 10px 24px 10px;    
 }
 label {
     color: #777;
@@ -40,9 +42,12 @@ select, input {
     color: #555555;
     cursor: pointer;
 }
+input{
+    width: 95%;
+}
 
 button {
-    background: #772fd3;
+    background: #2f32d3;
     border-radius: 5px;
     width: 100%;
     border:none;
@@ -61,7 +66,7 @@ button:active {
 }
 
 section{
-    border: 1px solid #772fd3;
+    border: 1px solid #2f5bd3d0;
     border-radius: 20px;
     margin-top: 36px;
     padding: 12px;
@@ -88,4 +93,45 @@ section{
     color: #555555;
     font-weight: 700;
     font-size: 20px;
+}
+@media screen and (max-width:900px) {
+
+    
+    main {
+        display: block;
+        flex-direction: row;
+        width: 80vw;
+        height: 100vh;
+        margin: 5px auto 5px;
+    }
+
+    section {
+        display: flex;
+        margin-top: 15px;
+        width: 80vw;
+        height: 48vh;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+    
+    main {
+        display: block;
+        flex-direction: column;
+        width: 80vw;
+        height: auto;
+        margin: 5px auto 5px;
+    }
+
+    section {
+        display: flex;
+        margin-top: 10px;
+        width: 80vw;
+        height: 50%;
+        align-items: center;
+    }
+
 }
