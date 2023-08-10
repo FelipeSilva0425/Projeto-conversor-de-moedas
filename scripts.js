@@ -261,7 +261,7 @@ function changeNameFirst() {
 
     if (currencySelectorFirst.value == "R") {
         changeNameCurrencyFirst.innerHTML = "R$ Real brasileiro"
-        currencyImgFirst.src = './assets/real.png'
+        currencyImgFirst.src = './assets/Real.png'
     }
 
     if (currencySelectorFirst.value == "D") {
@@ -293,7 +293,7 @@ function changeName() {
 
     if (currencySelector.value == "Real") {
         changeNameCurrency.innerHTML = "R$ Real brasileiro"
-        currencyImg.src = './assets/real.png'
+        currencyImg.src = './assets/Real.png'
     }
     if (currencySelector.value == "Dolar") {
         changeNameCurrency.innerHTML = "US$ Dólar Americano"
